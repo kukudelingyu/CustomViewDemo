@@ -1,18 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <com.lingyu.customViewDemo.customView.TagLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.lingyu.customViewDemo.customView.TagView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tag_text="美妆蛋"
+            />
+        <com.lingyu.customViewDemo.customView.TagView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tag_text="粉底液"
+            />
+        <com.lingyu.customViewDemo.customView.TagView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tag_text="雅诗兰黛小棕瓶"
+            />
+        <com.lingyu.customViewDemo.customView.TagView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tag_text="喷雾"
+            />
+        <com.lingyu.customViewDemo.customView.TagView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tag_text="狗"
+            />
+        <com.lingyu.customViewDemo.customView.TagView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tag_text="纪梵希口红"
+            />
+        <com.lingyu.customViewDemo.customView.TagView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tag_text="完美日记"
+            />
+        <com.lingyu.customViewDemo.customView.TagView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tag_text="天鹅颈"
+            />
+        <com.lingyu.customViewDemo.customView.TagView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tag_text="快乐风男修眉刀"
+            />
+        <com.lingyu.customViewDemo.customView.TagView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tag_text="睫毛刷"
+            />
+        <com.lingyu.customViewDemo.customView.TagView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tag_text="粉饼"
+            />
+        <com.lingyu.customViewDemo.customView.TagView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tag_text="朗仕男士遮瑕霜"
+            />
+        <com.lingyu.customViewDemo.customView.TagView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tag_text="电动牙刷"
+            />
+        <com.lingyu.customViewDemo.customView.TagView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tag_text="小镜子"
+            />
+        <com.lingyu.customViewDemo.customView.TagView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tag_text="资生堂洗面奶"
+            />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </com.lingyu.customViewDemo.customView.TagLayout>
+
+
+
+
+
+
+</LinearLayout>
