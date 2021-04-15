@@ -42,7 +42,6 @@ class DashBoardView @JvmOverloads constructor(val mContext: Context, val attrs:A
 
     override fun onDraw(canvas: Canvas?) {
         super.onDraw(canvas)
-
         //表盘的rect
         var oval = RectF(width/2-2*RADIUS.toFloat(),height/2-2*RADIUS.toFloat(),width/2+2*RADIUS.toFloat(),height/2+2*RADIUS.toFloat())
         canvas?.drawArc(oval,135f,270f,false,paint!!)
@@ -50,7 +49,6 @@ class DashBoardView @JvmOverloads constructor(val mContext: Context, val attrs:A
         val smallRectPath = Path()
         val smallRect = RectF(0f,0f,2f.dp2px,8f.dp2px)
         smallRectPath.addRect(smallRect,Path.Direction.CW)
-
         //测量弧的长度
         val pathMeasure = PathMeasure()
         //表盘弧度的path
